@@ -1,0 +1,13 @@
+{
+  "name": "take-home/hotel-showcase",
+  "type": "project",
+  "require": {
+    "php": "^8.4",
+    "ext-pdo_sqlite": "*",
+    "ext-simplexml": "*",
+    "react/http": "^1.12"
+  },
+  "autoload": {
+    "psr-4": {"Hotels\\": "src/"}
+  }
+}
